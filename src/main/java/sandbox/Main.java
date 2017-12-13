@@ -16,6 +16,7 @@ public class Main {
         this.sparkConf = sparkConf;
     }
 
+    // http://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-spark-application.html
     public void execute(int slices) {
         System.out.println("start: " + LocalDateTime.now());
 
